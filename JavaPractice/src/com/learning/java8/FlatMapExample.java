@@ -1,6 +1,5 @@
 package com.learning.java8;
 
-import com.learning.InterviewQuestions.Sample;
 
 import java.util.Arrays;
 import java.util.List;
