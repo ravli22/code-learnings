@@ -19,7 +19,7 @@ public class ComparatorExample {
 
         Collections.sort(employeeList,Comparator.comparing(Employee::getName));
 
-        System.out.println("Printing the list , sorting with employee's age");
+        System.out.println("Printing the list , sorting with employee's name");
         employeeList.forEach(System.out::println);
 
         Collections.sort(employeeList,Comparator.comparing(Employee::getAge));

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class PeakAndSkipExample {
+public class PeekAndSkipExample {
     public static void main(String[] args) {
         List<String> list = Stream.of("One", "Two", "Three")
                 .filter(s -> !s.equals("One"))
