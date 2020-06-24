@@ -9,5 +9,6 @@ public class ConvertArrayToStream {
         Stream.of(strArray)
                 .filter(s->s.startsWith("a"))
                 .forEach(System.out::println);
+    System.out.println(java.math.BigInteger.valueOf(25).isProbablePrime(1));
     }
 }

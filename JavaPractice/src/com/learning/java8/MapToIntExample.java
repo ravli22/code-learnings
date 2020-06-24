@@ -2,6 +2,7 @@ package com.learning.java8;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class MapToIntExample {
