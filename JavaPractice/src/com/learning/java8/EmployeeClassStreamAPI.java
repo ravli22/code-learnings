@@ -3,7 +3,7 @@ package com.learning.java8;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class EmployeeClassQuestionsOnStream {
+public class EmployeeClassStreamAPI {
 
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
