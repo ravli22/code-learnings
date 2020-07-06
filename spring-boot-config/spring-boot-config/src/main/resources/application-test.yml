@@ -1,0 +1,12 @@
+app.name : spring-boot-config
+my:
+  greeting : Hello World!
+  appGreeting : Welcome to ${app.name}
+
+values : One,Two,Three
+dbvalues : "{connectionString : 'http:/____',username : 'foo' , password : 'pass'}"
+
+db :
+  connection : test-connection-string-here
+  host : 129.0.0.1
+  port : 2501

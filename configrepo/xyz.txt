@@ -1,0 +1,68 @@
+
+ 
+ 2)id   fk_id
+  4   4
+  5   5
+  1   null
+  2   null
+  3   null
+
+3) 
+ id fk_id
+  4   4
+  5   5
+  null   6
+  null   7
+
+4)id   fk_id
+  1   null
+  2   null
+  3   null
+  4   4
+  5   5
+  null   6
+  null   7
+
+5) id 
+  1
+  2
+  3
+  4
+  5
+  4
+  5
+  6
+  7
+
+
+
+1)select min(loan_amt),state_cd from loan group by state_cd
+select max(loan_amt),state_cd from loan group by state_cd
+select avg(loan_amt),state_cd from loan group by state_cd
+
+2)select
+	 max(loan_amt),state_cd
+ from 
+	loan
+ group by state_cd
+ having max(loan_amt)>100K;
+
+
+3)select
+	 max(loan_amt),state_cd
+ from
+	 loan
+ where
+	 state_cd in ('TX','FL') 
+group by state_cd
+having max(loan_amt)>100K;
+
+
+4) 
+select 
+(loan_amt * loan_price) / loan_amt as weighted_average , state_cd
+from loan 
+group by state_cd
+
+
+									

@@ -1,0 +1,8 @@
+I have an integer array 
+{0, 7 -1, 0, 100, 9, 7,2,101,3,0,8, 15,6,0,3,-5}
+Move all the 0' to the first and keep the order of remaining elements.
+Output {0,0,0,0, 7,-1,100,9,7,2,101,3,8,15,6,3,-5}
+Dont use another array and you need to use inplace swap
+Dont use any in-built library function
+
+ 

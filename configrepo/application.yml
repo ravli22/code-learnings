@@ -1,0 +1,8 @@
+my:
+  greeting : Hello World! from config server
+  appGreeting : Welcome to ${app.name}
+
+db :
+  connection : connection-string-here
+  host : 129.0.0.1
+  port : 3306
