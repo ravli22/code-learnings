@@ -100,6 +100,10 @@ public class EmployeeClassStreamAPI {
                 .collect(Collectors.toSet());
         numbersSet.forEach(System.out::println);
 
+        List<Integer> nonDuplicateList = numbers.stream()
+                .distinct()
+                .collect( Collectors.toList() );
+
         /**
          * Given a list of numbers, square them and filter the numbers which are greater 10000 and then find average of them.
          */
