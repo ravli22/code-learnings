@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select environment option</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function redirect_to_mi(env) {
+            window.location.replace(env.value);
+            return false;
+        }
+    </script>
+    <h3>Select an environment below:</h3>
+    <form name="form1" method="POST" onsubmit="return redirect_to_mi(env)">
+        <select name="env" id="env">
+            <option selected value="https://www.techopedia.com/definition/26482/development-server">DEV</option>
+            <option value="https://answers.sap.com/questions/12151930/production-and-uat-server.html">UAT</option>
+            <option value="https://whatis.techtarget.com/definition/production-server">PROD</option>
+        </select>
+        <input type="submit" value="Submit" class="button4">
+    </form>
+</body>
+</html>
