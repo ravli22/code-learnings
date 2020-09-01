@@ -1,4 +1,4 @@
-package com.learning.datastructures;
+package com.learning.datastructures.arrays;
 
 public class CirculateTheArray {
     public static void main(String[] args) {
@@ -6,13 +6,14 @@ public class CirculateTheArray {
         System.out.println("printing the initial Array");
         printTheArray(intArray);
 
-        circulateTheArrayNpostions(intArray, intArray.length,3);
+        circulateTheArrayNpostions(intArray, intArray.length,8);
 
         System.out.println("printing the rotated Array");
         printTheArray(intArray);
 
     }
     private static void circulateTheArrayNpostions(int[] intArray,int size,int numOfPositions) {
+        numOfPositions = numOfPositions % size;
         for(int i=1;i<=numOfPositions;i++) {
             rotateArray(intArray,size);
         }
