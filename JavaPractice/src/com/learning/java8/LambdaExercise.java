@@ -10,7 +10,7 @@ public class LambdaExercise {
         List<Person> people = Arrays.asList(
                 new Person("Rav","Rao",25),
                 new Person("Sru","Ak",26),
-                new Person("Sar","Gopi",28)
+                new Person("Renu","Puramu",28)
         );
         //Step 1: Sort list by last name
         Collections.sort(people,new LastNameComparator());
